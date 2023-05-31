@@ -65,3 +65,28 @@ To use this code, ensure that the Pytube library is installed in your Python env
 - The pytube library may not work for certain videos if there are changes in YouTube's backend or if YouTube updates its algorithms. If you encounter any issues, make sure you have the latest version of the pytube library and check for updates.
 - Ensure you have a stable internet connection during the video download process to avoid interruptions or incomplete downloads.
 
+# 7. Armstrong Number Checker
+This is a simple Python program to check whether a given number is an Armstrong number or not. An Armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits.
+## Example
+Suppose you want to check whether 153 is an Armstrong number or not. You can run the program and enter 153 as the input. The program will calculate the power of each digit: 1^3 + 5^3 + 3^3 = 153. Since 153 is equal to the sum of the power of each digit, the program will print that 153 is an Armstrong number.
+
+# 8. Store-Reciept-Generator
+This program helps to calculate the total bill of items purchased at a store. The user has to provide the name of the store and the number of items purchased. Then for each item, the user has to enter the price and the name of the item. Finally, the program calculates the total bill and displays a detailed bill receipt.
+
+# 9. Password Generator
+This code generates a strong password using a combination of numbers, uppercase and lowercase letters, and special characters.
+
+## How it works
+The code creates three lists, a, b, and c, each containing characters to be used in generating the password. Then, it randomly selects a character from each list and concatenates them to form a six-character password.
+
+The password consists of two random numbers, two random uppercase or lowercase letters, and two random special characters.
+
+# 10. Python LCM and HCF Calculator
+This is a simple Python program that calculates the LCM (Least Common Multiple) and HCF (Highest Common Factor or GCD) of two numbers entered by the user.
+
+## How it works
+The program uses simple arithmetic operations to calculate the LCM and HCF of two numbers.
+
+For LCM, it first finds the maximum number between the two input numbers. It then iteratively checks if the maximum number is divisible by both input numbers. If it is, the program breaks the loop and returns the LCM of the two numbers.
+
+For HCF, it first finds the minimum number between the two input numbers. It then iteratively checks for factors of both numbers up to the minimum number. If a common factor is found, the program stores the factor and continues checking. The program then returns the HCF of the two numbers.
