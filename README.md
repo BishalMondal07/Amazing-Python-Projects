@@ -1,5 +1,5 @@
 # Amazing-Python-Projects
-Here, you will find a collection of six wonderful Python projects that you can explore and learn from. Each project is designed to showcase different aspects of Python programming and demonstrate its versatility and power.
+Here, you will find a collection of twelve wonderful Python projects that you can explore and learn from. Each project is designed to showcase different aspects of Python programming and demonstrate its versatility and power.
 
 # 1. PyPDF2 PDF Merger
 This code is an example of using the PyPDF2 library to merge multiple PDF files into a single document. The code takes a list of PDF files to be merged and uses the PdfMerger class of the PyPDF2 library to append each PDF file to the merger object. Finally, the merged document is saved to the file 'merged.pdf' using the write() method. There are two sample pdf files attached with this folder.
@@ -90,3 +90,16 @@ The program uses simple arithmetic operations to calculate the LCM and HCF of tw
 For LCM, it first finds the maximum number between the two input numbers. It then iteratively checks if the maximum number is divisible by both input numbers. If it is, the program breaks the loop and returns the LCM of the two numbers.
 
 For HCF, it first finds the minimum number between the two input numbers. It then iteratively checks for factors of both numbers up to the minimum number. If a common factor is found, the program stores the factor and continues checking. The program then returns the HCF of the two numbers.
+
+# 11. Password Securement using Substitution Cipher
+This program is a password security tool that replaces some characters in the password with some other characters, making it more secure. It replaces some commonly used characters with more complex characters, making it harder for hackers to crack the password.
+
+## How it Works
+The program defines a SECURE tuple containing pairs of characters to be replaced. It then prompts the user to enter a password. The program then iterates over each character in the password and replaces the characters in SECURE if found. The modified password is then returned and printed to the console.
+
+# 12. Dice Rolling Simulator
+This is a simple Python program that simulates rolling a dice. It generates a random number between 1 and 6, and prints out a representation of a dice with the number of dots corresponding to the number that was rolled.
+
+## Code Explanation
+The random module is imported to generate a random number between 1 and 6, representing the number that was rolled on the dice.
+The if statements check the value of the result variable, and print out the corresponding representation of a dice using ASCII art.
